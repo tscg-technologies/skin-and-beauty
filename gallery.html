@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinic &amp; Treatment Gallery | Skin &amp; Beauty Clinic Website</title>
+  <meta name="description" content="View our clinic interior, private consultation rooms, treatment environment, and aesthetic equipment placeholders.">
+  <meta property="og:title" content="Clinic Gallery | Skin & Beauty Clinic">
+  <meta property="og:description" content="Explore our aesthetic clinic interiors, reception lounges, and treatment suites.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2324483F'><path d='M12 2C7.5 2 4 5.5 4 10c0 5.25 8 12 8 12s8-6.75 8-12c0-4.5-3.5-8-8-8zm0 11.5c-1.93 0-3.5-1.57-3.5-3.5S10.07 6.5 12 6.5s3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z'/></svg>">
+</head>
+<body>
+
+  <!-- SITE HEADER -->
+    <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Skin &amp; Beauty Clinic Home">
+        <div class="brand-logo-symbol">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            <path d="M12 8c-2 2-2 5 0 7 2-2 2-5 0-7z"/>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Skin &amp; Beauty Clinic</span>
+          <span class="brand-subtitle">Professional Skincare Services</span>
+        </div>
+      </a>
+
+      <nav class="main-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-cta">
+        <a href="appointment.html" class="btn btn-primary">Book Appointment</a>
+        <button class="mobile-nav-toggle" aria-label="Open mobile navigation" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-nav-drawer">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Home</a></li>
+        <li><a href="about.html" class="mobile-nav-link">About Clinic</a></li>
+        <li><a href="services.html" class="mobile-nav-link">Services</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact Us</a></li>
+      </ul>
+      <a href="appointment.html" class="btn btn-primary mobile-cta-btn">Book Consultation</a>
+    </div>
+  </header>
+
+  <!-- PAGE BANNER -->
+  <section class="page-banner">
+    <div class="container">
+      <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+        <ol class="breadcrumb-list">
+          <li><a href="index.html">Home</a></li>
+          <li class="breadcrumb-separator">/</li>
+          <li class="breadcrumb-current" aria-current="page">Gallery</li>
+        </ol>
+      </nav>
+      <div class="page-banner-content">
+        <span class="eyebrow" style="color: var(--color-gold);">Visual Tour</span>
+        <h1>Clinic &amp; Treatment Environment Gallery</h1>
+        <p>Explore our hygienic facilities, calm aesthetic interiors, private consultation suites, and clinical equipment spaces.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- CLINICAL NOTICE -->
+    <section class="section-sm bg-white" style="border-bottom: 1px solid var(--color-border);">
+      <div class="container">
+        <div class="demo-notice-box" style="margin-bottom: 0;">
+          <strong>Gallery Notice:</strong> All image spaces represent future photography placeholders for Google Flow visual replacement. In accordance with strict medical ethics guidelines, we do not showcase fabricated before-and-after photographs as genuine client results.
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY SECTION -->
+    <section class="section bg-light">
+      <div class="container">
+        <!-- Category Filters -->
+        <div class="gallery-filters" role="tablist" aria-label="Gallery Categories">
+          <button class="filter-btn active" data-filter="all">All Visuals</button>
+          <button class="filter-btn" data-filter="interior">Clinic Interior</button>
+          <button class="filter-btn" data-filter="reception">Reception</button>
+          <button class="filter-btn" data-filter="consultation">Consultation Room</button>
+          <button class="filter-btn" data-filter="treatment">Treatment Suites</button>
+          <button class="filter-btn" data-filter="equipment">Care Equipment</button>
+          <button class="filter-btn" data-filter="facials">Facial Suite</button>
+        </div>
+
+        <!-- Gallery Grid -->
+        <div class="gallery-grid" id="galleryGrid">
+          <!-- Item 1: Interior -->
+          <div class="gallery-item" data-category="interior" data-title="Modern Clinic Interior" data-src="images/clinic-gallery-01.jpeg" data-filename="clinic-gallery-01.jpeg" data-dimensions="800 Ã— 600 px (4:3)" data-desc="Spacious, quiet hallway lined with warm natural oak wood accents and soft recessed illumination.">
+            <div class="img-placeholder ratio-4-3" data-img-id="IMG-38">
+              <img src="images/clinic-gallery-01.jpeg" alt="Modern Clinic Interior" loading="lazy">
+            </div>
+            <div class="gallery-caption">
+              <h4>Modern Clinic Interior</h4>
+              <span>Clinic Interior  &bull;  Click to View</span>
+            </div>
+          </div>
+
+          <!-- Item 2: Reception -->
+          <div class="gallery-item" data-category="reception" data-title="Welcoming Reception Desk" data-src="images/clinic-gallery-02.jpeg" data-filename="clinic-gallery-02.jpeg" data-dimensions="800 Ã— 600 px (4:3)" data-desc="Minimalist marble check-in counter surrounded by indoor plants and soft beige lounge seating.">
+            <div class="img-placeholder ratio-4-3" data-img-id="IMG-39">
+              <img src="images/clinic-gallery-02.jpeg" alt="Welcoming Reception Desk" loading="lazy">
+            </div>
+            <div class="gallery-caption">
+              <h4>Welcoming Reception Desk</h4>
+              <span>Reception  &bull;  Click to View</span>
+            </div>
+          </div>
+
+          <!-- Item 3: Consultation -->
+          <div class="gallery-item" data-category="consultation" data-title="Private Skin Consultation Room" data-src="images/clinic-gallery-03.jpeg" data-filename="clinic-gallery-03.jpeg" data-dimensions="800 Ã— 600 px (4:3)" data-desc="Ergonomic consultation desk with polarized skin analysis scope and hygienic handwashing station.">
+            <div class="img-placeholder ratio-4-3" data-img-id="IMG-40">
+              <img src="images/clinic-gallery-03.jpeg" alt="Private Skin Consultation Room" loading="lazy">
+            </div>
+            <div class="gallery-caption">
+              <h4>Private Consultation Room</h4>
+              <span>Consultation Room  &bull;  Click to View</span>
+            </div>
+          </div>
+
+          <!-- Item 4: Treatment Room -->
+          <div class="gallery-item" data-category="treatment" data-title="Hygienic Treatment Suite" data-src="images/clinic-gallery-04.jpeg" data-filename="clinic-gallery-04.jpeg" data-dimensions="800 Ã— 600 px (4:3)" data-desc="Sanitised clinical procedure room with adjustable aesthetic treatment bed and sterile drape.">
+            <div class="img-placeholder ratio-4-3" data-img-id="IMG-41">
+              <img src="images/clinic-gallery-04.jpeg" alt="Hygienic Treatment Suite" loading="lazy">
+            </div>
+            <div class="gallery-caption">
+              <h4>Hygienic Treatment Suite</h4>
+              <span>Treatment Suites  &bull;  Click to View</span>
+            </div>
+          </div>
+
+          <!-- Item 5: Equipment -->
+          <div class="gallery-item" data-category="equipment" data-title="Aesthetic Skincare Tools" data-src="images/clinic-gallery-05.jpeg" data-filename="clinic-gallery-05.jpeg" data-dimensions="800 Ã— 600 px (4:3)" data-desc="Autoclaved stainless steel precision implements and diagnostic skin moisture sensor probes.">
+            <div class="img-placeholder ratio-4-3" data-img-id="IMG-42">
+              <img src="images/clinic-gallery-05.jpeg" alt="Aesthetic Skincare Tools" loading="lazy">
+            </div>
+            <div class="gallery-caption">
+              <h4>Aesthetic Skincare Tools</h4>
+              <span>Care Equipment  &bull;  Click to View</span>
+            </div>
+          </div>
+
+          <!-- Item 6: Facials -->
+          <div class="gallery-item" data-category="facials" data-title="Facial Rejuvenation Suite" data-src="images/clinic-gallery-06.jpeg" data-filename="clinic-gallery-06.jpeg" data-dimensions="800 Ã— 600 px (4:3)" data-desc="Cozy clinical facial suite equipped with warm towel steamer, gentle magnifying lamp, and plush bed.">
+            <div class="img-placeholder ratio-4-3" data-img-id="IMG-43">
+              <img src="images/clinic-gallery-06.jpeg" alt="Facial Rejuvenation Suite" loading="lazy">
+            </div>
+            <div class="gallery-caption">
+              <h4>Facial Rejuvenation Suite</h4>
+              <span>Facial Suite  &bull;  Click to View</span>
+            </div>
+          </div>
+
+          <!-- Item 7: Treatment Environment -->
+          <div class="gallery-item" data-category="interior" data-title="Aesthetic Relaxation Lounge" data-src="images/clinic-gallery-07.jpeg" data-filename="clinic-gallery-07.jpeg" data-dimensions="800 Ã— 600 px (4:3)" data-desc="Quiet post-consultation relaxation lounge offering herbal tea and soothing background music.">
+            <div class="img-placeholder ratio-4-3" data-img-id="IMG-47">
+              <img src="images/clinic-gallery-07.jpeg" alt="Aesthetic Relaxation Lounge" loading="lazy">
+            </div>
+            <div class="gallery-caption">
+              <h4>Aesthetic Relaxation Lounge</h4>
+              <span>Clinic Interior  &bull;  Click to View</span>
+            </div>
+          </div>
+
+          <!-- Item 8: Skincare Care -->
+          <div class="gallery-item" data-category="treatment" data-title="Chemical Peel Suite" data-src="images/clinic-gallery-08.jpeg" data-filename="clinic-gallery-08.jpeg" data-dimensions="800 Ã— 600 px (4:3)" data-desc="Dedicated aesthetic preparation counter with pH neutralizing solutions and sterile timers.">
+            <div class="img-placeholder ratio-4-3" data-img-id="IMG-48">
+              <img src="images/clinic-gallery-08.jpeg" alt="Chemical Peel Preparation Suite" loading="lazy">
+            </div>
+            <div class="gallery-caption">
+              <h4>Chemical Peel Suite</h4>
+              <span>Treatment Suites  &bull;  Click to View</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- LIGHTBOX MODAL -->
+    <div id="lightboxModal" class="lightbox-modal" role="dialog" aria-modal="true" aria-label="Image Lightbox Viewer">
+      <div class="lightbox-content-box">
+        <button class="lightbox-close" aria-label="Close Lightbox">&times;</button>
+        <button class="lightbox-nav-btn lightbox-prev" aria-label="Previous Image">&#10094;</button>
+        <button class="lightbox-nav-btn lightbox-next" aria-label="Next Image">&#10095;</button>
+        <div class="lightbox-body">
+          <span class="placeholder-badge lightbox-category">CATEGORY</span>
+          <h3 class="lightbox-title" style="margin-bottom: 0.5rem;">Visual Title</h3>
+          <div style="margin: 1.25rem 0;">
+            <div class="img-placeholder ratio-16-9" style="max-height: 440px; background: var(--color-forest-dark);">
+              <img class="lightbox-img" src="" alt="Clinic Gallery Photo" style="width: 100%; height: 100%; object-fit: contain;">
+            </div>
+          </div>
+          <p class="lightbox-note" style="font-size: 0.92rem; color: var(--color-charcoal-light); margin-top: 0.75rem;">Description</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- SITE FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="brand">
+            <div class="brand-logo-symbol">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title">Skin &amp; Beauty Clinic</span>
+              <span class="brand-subtitle">Professional Skincare Services</span>
+            </div>
+          </a>
+          <p class="footer-desc">A premium dermatology and aesthetic skincare clinic offering personalised consultations, professional facial treatments, and skin wellness care in a calm, modern setting.</p>
+          <div class="footer-hours">
+            <p><strong>Working Hours:</strong><br>Monday&ndash;Saturday: 9:00 AM&ndash;6:00 PM<br>Sunday: Closed</p>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Clinic</a></li>
+            <li><a href="services.html">All Services</a></li>
+            <li><a href="gallery.html">Clinic Gallery</a></li>
+            <li><a href="faq.html">FAQs</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="appointment.html">Book Appointment</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Skin Treatments</h4>
+          <ul class="footer-links">
+            <li><a href="skin-treatments.html">Skin Treatments</a></li>
+            <li><a href="acne-care.html">Acne &amp; Acne Scar Care</a></li>
+            <li><a href="pigmentation.html">Pigmentation Care</a></li>
+            <li><a href="facial-treatments.html">Facial Treatments</a></li>
+            <li><a href="anti-aging.html">Anti-Aging &amp; Rejuvenation</a></li>
+            <li><a href="hair-care.html">Hair &amp; Scalp Care</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Clinic Location</h4>
+          <ul class="footer-contact-list">
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Plot No. 000, Demo Road, Sample Area, Hyderabad, Telangana &ndash; 000000.</span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>Phone: 0000000000 / 0000000000</span>
+            </li>
+            <li>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>demo@example.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-disclaimer-card">
+        <p><strong>Healthcare &amp; Website Demo Notice:</strong> This website is an illustrative frontend demonstration for a generic Indian Skin &amp; Beauty Clinic. All clinic identifiers, addresses, telephone numbers, and client testimonials are dummy illustrative placeholders. Treatment information provided is strictly educational and does not constitute medical advice, diagnosis, prescription, or guaranteed therapeutic outcomes. Treatment suitability must always be confirmed through an in-person assessment by an appropriately qualified professional.</p>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Skin &amp; Beauty Clinic. All rights reserved. Generic Demonstration Website.</p>
+        <p>Designed for Static Hostinger Hosting  &bull;  Pure HTML5, CSS3 &amp; Vanilla JS</p>
+      </div>
+    </div>
+  </footer>
+
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Scroll to top of page">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+  </button>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
